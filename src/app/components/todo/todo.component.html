@@ -12,7 +12,7 @@
 
     <div class="filters">
         <button (click)="changeFilter('all')" [class.active]="filter() === 'all'">Todas</button>
-        <button (click)="changeFilter('active')" [class.active]="filter() === 'active'">Activas</button>
+        <button (click)="changeFilter('active')" [class.active]="filter() === 'active'">Por hacer</button>
         <button (click)="changeFilter('completed')" [class.active]="filter() === 'completed'">Completadas</button>
     </div>
 
